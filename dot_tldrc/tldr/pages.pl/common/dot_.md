@@ -1,7 +1,0 @@
-# Dot
-
-> To polecenie jest aliasem `source`.
-
-- Zobacz dokumentację oryginalnego polecenia:
-
-`tldr source`
