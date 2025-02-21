@@ -3,6 +3,7 @@
 	email = darius.koenig@outlook.de
 [core]
 	editor = vim
+	excludesfile = /Users/dariuskoenig/.gitignore_global
 [init]
 	defaultBranch = main
 [alias]
