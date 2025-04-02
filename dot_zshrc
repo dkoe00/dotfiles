@@ -3,8 +3,10 @@ bindkey -v
 alias ll="ls -lah"
 alias mv="mv -i"
 alias mkdir="mkdir -p"
+alias gs="git status"
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/opt/homebrew/opt/python@3.13/libexec/bin:$PATH"
 
 FUNCTIONS_DIR="$HOME/.local/bin/functions"
 
