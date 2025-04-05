@@ -11,6 +11,16 @@
 " `vim -u foo`).
 set nocompatible
 
+" Manage plugins
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'jiangmiao/auto-pairs'
+Plug 'alvan/vim-closetag'
+Plug 'mattn/emmet-vim'
+
+call plug#end()
+
 " Turn on syntax highlighting.
 syntax on
 
@@ -32,7 +42,7 @@ set relativenumber
 set laststatus=2
 
 " Set the default length of tabs to 4 spaces for Python and HTML files
-autocmd FileType python, html setlocal tabstop=4 shiftwidth=4 expandtab softtabstop=4
+autocmd FileType python,html setlocal tabstop=4 shiftwidth=4 expandtab softtabstop=4
 
 " The backspace key has slightly unintuitive behavior by default. For example,
 " by default, you can't backspace before the insertion point set with 'i'.
