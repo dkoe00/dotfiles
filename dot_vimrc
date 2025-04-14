@@ -41,8 +41,11 @@ set relativenumber
 " Always show the status line at the bottom, even if you only have one window open.
 set laststatus=2
 
-" Set the default length of tabs to 4 spaces for Python and HTML files
-autocmd FileType python,html setlocal tabstop=4 shiftwidth=4 expandtab softtabstop=4
+" Set the default length of tabs to 4 spaces and to 8 for makefiles
+set tabstop=4
+set shiftwidth=4
+set expandtab
+autocmd FileType make setlocal tabstop=8 shiftwidth=8 noexpandtab 
 
 " The backspace key has slightly unintuitive behavior by default. For example,
 " by default, you can't backspace before the insertion point set with 'i'.
