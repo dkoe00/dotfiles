@@ -41,10 +41,13 @@ set relativenumber
 " Always show the status line at the bottom, even if you only have one window open.
 set laststatus=2
 
-" Set the default length of tabs to 4 spaces and to 8 for makefiles
+" Set the default length of tabs and indentation to 4 spaces and to 8 for makefiles
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set smarttab
+set autoindent
+set smartindent
 autocmd FileType make setlocal tabstop=8 shiftwidth=8 noexpandtab 
 
 " The backspace key has slightly unintuitive behavior by default. For example,
