@@ -17,7 +17,9 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
+Plug 'lervag/vimtex'
 Plug 'mattn/emmet-vim'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
 
